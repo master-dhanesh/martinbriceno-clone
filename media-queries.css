@@ -1,0 +1,146 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+
+    .container div {
+        width: 50%;
+    }
+
+    .container p {
+        margin: 2vmax 0;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .nav-menu {
+        display: initial;
+    }
+    .nav-hide1,
+    .footer-hide1 {
+        display: none;
+    }
+
+    .container {
+        justify-content: flex-start;
+    }
+
+    .container div {
+        width: 60%;
+    }
+
+    .container h1 {
+        font-size: 5vmax;
+    }
+    .container p {
+        font-size: 2vmax;
+        margin: 3vmax 0;
+    }
+
+    footer p {
+        font-size: 1.7vmax;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .nav-menu {
+        display: initial;
+    }
+    .nav-hide1,
+    .footer-hide1 {
+        display: none;
+    }
+
+    .container {
+        justify-content: flex-start;
+    }
+
+    .container div {
+        width: 60%;
+    }
+
+    .container h1 {
+        font-size: 5vmax;
+    }
+    .container p {
+        font-size: 2vmax;
+        margin: 3vmax 0;
+    }
+
+    footer p {
+        font-size: 1.7vmax;
+    }
+
+    .content-1,
+    .content-2 {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .content-1 h1 {
+        width: 80%;
+        margin-top: 1vmax;
+        font-size: 3vmax;
+    }
+
+    .content-1 .image-1 {
+        margin: 1vmax 0;
+    }
+
+    .content-2 > div {
+        width: 65%;
+        margin-top: 2vmax;
+    }
+
+    .content-2 > div > p {
+        font-size: 1.5vmax;
+    }
+
+    .content-2 > div > h2 {
+        font-size: 2vmax;
+    }
+
+    .content-2 button {
+        margin-top: 2vmax;
+    }
+}
